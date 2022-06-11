@@ -95,7 +95,7 @@ options:
   -d DELAY, -delay DELAY
                         how long to wait between searches in seconds, defaults to 1
                        
-``
+```
 
 
 ## Roadmap
