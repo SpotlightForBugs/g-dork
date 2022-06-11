@@ -79,10 +79,24 @@ pip install -r requirements.txt
 
 
 ## Usage
-
 ```sh
-python3 g-dork.py -h
-```
+usage: g-dork.py [-h] -q TARGET [-html | -j | -t] [-qty QTY] [-d DELAY]
+
+options:
+  -h, --help            show this help message and exit
+  -q TARGET, -query TARGET
+                        what you want to find
+  -html, -webversion    outputs the result as HTML5
+  -j, -json             outputs the result as JSON
+  -t, -txt              outputs the result as a text
+  -qty QTY, -quantity QTY
+                        how many results shoud be processed, defaults to 10
+                        results
+  -d DELAY, -delay DELAY
+                        how long to wait between searches in seconds, defaults to 1
+                       
+``
+
 
 ## Roadmap
 
