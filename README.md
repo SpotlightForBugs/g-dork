@@ -34,7 +34,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+![Web capture_11-6-2022_225030_](https://user-images.githubusercontent.com/73603712/173204471-4596734e-4502-4ff3-bb67-afd81fbde943.jpeg)
 
 There are many great Google Dork scripts available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a Google Dork script so amazing that it'll be the last one you ever need.
 
