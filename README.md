@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/SpotlightForBugs/g-dork">
-    <img src="https://www.linkpicture.com/q/Google-2Bdork.png" alt="Logo" width="80" height="80">
+    <img src="https://www.linkpicture.com/q/Google-2Bdork.png" alt="Logo" width"50%" height="50%">
   </a>
 
   <h3 align="center">another Google Dorker</h3>
