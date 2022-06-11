@@ -89,11 +89,9 @@ options:
   -html, -webversion    outputs the result as HTML5
   -j, -json             outputs the result as JSON
   -t, -txt              outputs the result as a text
-  -qty QTY, -quantity QTY
-                        how many results shoud be processed, defaults to 10
-                        results
-  -d DELAY, -delay DELAY
-                        how long to wait between searches in seconds, defaults to 1
+  -qty QTY, -quantity QTY how many results shoud be processed, defaults to 10 results                                           
+  -d DELAY, -delay DELAY  how long to wait between searches in seconds, defaults to 1
+                       
                        
 ```
 
