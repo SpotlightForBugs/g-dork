@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 
 ## Usage
-```python3
+```
 usage: g-dork.py [-h] -q TARGET [-html | -j | -t] [-qty QTY] [-d DELAY]
 
 options:
