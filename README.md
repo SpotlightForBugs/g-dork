@@ -10,11 +10,6 @@
     An OSINT script, running on Python
     <br/>
     <br/>
-    <a href="https://github.com/SpotlightForBugs/g-dork"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/SpotlightForBugs/g-dork">View Demo</a>
-    .
     <a href="https://github.com/SpotlightForBugs/g-dork/issues">Report Bug</a>
     .
     <a href="https://github.com/SpotlightForBugs/g-dork/issues">Request Feature</a>
