@@ -68,6 +68,4 @@ elif args.text:
     for line in links:
         print (line)
 
-# print(links)
-# print(domain_name)
 
