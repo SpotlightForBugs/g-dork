@@ -98,4 +98,3 @@ elif args.json:
 elif args.text:
     for line in links:
         print(line)
-
