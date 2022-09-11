@@ -39,7 +39,7 @@ def search_func():
         links.append(j)
         name=(tldextract.extract(j))
         domain_name.append(name.domain+"."+name.suffix)
-    
+
 
 
 def write_to_file_func():
@@ -53,7 +53,7 @@ def write_to_file_func():
     for item,path in zip (links,domain_name):
         f.write("\n <a class='button'href="+item+">"+path+"</a> <br>")
         f.write("<div class='spacer'</div>")
-    
+
 
     f.close()
 
