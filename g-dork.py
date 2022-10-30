@@ -71,7 +71,7 @@ def search_func():
     for j in search(query, tld="com", num=10, stop=num, pause=delay):
         links.append(j)
         name = tldextract.extract(j)
-        domain_name.append(name.domain + "." + name.suffix)
+        domain_name.append(f"{name.domain}.{name.suffix}")
 
 
 def write_to_file_func():
@@ -79,14 +79,12 @@ def write_to_file_func():
     Writes the results to an html file.
     :return: None
     """
-    f = open("results_" + query + ".html", "a")
-    f.write("<link rel='stylesheet' href='style.css'>")
-    f.write('<meta name="viewport" content="width=device-width, initial-scale=1">')
-    for item, path in zip(links, domain_name):
-        f.write("\n <a class='button'href=" + item + ">" + path + "</a> <br>")
-        f.write("<div class='spacer'</div>")
-
-    f.close()
+    with open(f"results_{query}.html", "a") as f:
+        f.write("<link rel='stylesheet' href='style.css'>")
+        f.write('<meta name="viewport" content="width=device-width, initial-scale=1">')
+        for item, path in zip(links, domain_name):
+            f.write("\n <a class='button'href=" + item + ">" + path + "</a> <br>")
+            f.write("<div class='spacer'</div>")
 
 
 search_func()
