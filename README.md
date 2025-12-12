@@ -122,7 +122,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/SpotlightFor
 
 ## Authors
 
-* **Johannes Häusler aka. SpotlightForBugs** - *Student @pius-gymnasium.de* - [Johannes Häusler aka. SpotlightForBugs](https://github.com/SpotlightForBugs) - *Made this repository*
+* **Johannes Häusler aka. SpotlightForBugs** - *Student @fh-aachen.de* - [Johannes Häusler aka. SpotlightForBugs](https://github.com/SpotlightForBugs) - *Made this repository*
 
 <!--## Acknowledgements-->
 
